@@ -1,0 +1,14 @@
+{
+  "name": "collers",
+  "version": "1.0.0",
+  "description": "This is a website for shoe sales",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/style.css -o ./src/output.css --watch"
+  },
+  "author": "Marie France",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
